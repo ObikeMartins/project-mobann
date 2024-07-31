@@ -14,7 +14,7 @@ resource "aws_instance" "example" {
   instance_type = "t2.micro"
 
   tags = {
-    Name = "ExampleInstance"
+    Name = "mezikkoInstance"
   }
 }
 
